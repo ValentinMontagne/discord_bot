@@ -11,8 +11,11 @@ module.exports = class Command {
     }
 
     parse(msg) {
-        if (this.match(msg))
+        if (this.match(msg)) {
             this.action(msg);
+            return true
+        }
+        return false
     }
 
     match(msg) {
