@@ -1,0 +1,33 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "Little bot, test of discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValMont13/discord_bot.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "ValMont13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ValMont13/discord_bot/issues"
+  },
+  "homepage": "https://github.com/ValMont13/discord_bot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
