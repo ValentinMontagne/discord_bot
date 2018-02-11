@@ -1,6 +1,6 @@
 import Command from './command'
 
-const PING = '!ping';
+const COMMAND = '!ping';
 const BOTNAME = '#Orthos';
 
 module.exports = class Ping extends Command {
@@ -10,7 +10,7 @@ module.exports = class Ping extends Command {
      */
 
     constructor(username, action) {
-        super(PING, action);
+        super(COMMAND, action);
         this.username = username;
     }
 
