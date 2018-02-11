@@ -30,8 +30,7 @@ module.exports = class Ping extends Command {
     }
 
     match (msg) {
-        if (msg.author.username === this.username || this.username === undefined || this.username === '')
-            return (msg.content.startsWith(this.command));
+        return (msg.content.startsWith(this.command));
     }
 
 };
