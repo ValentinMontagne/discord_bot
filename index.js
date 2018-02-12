@@ -2,6 +2,7 @@ import Discord from 'discord.js'
 import Config from './config'
 import Ping from './commands/ping'
 import Bitcoin from './commands/bitcoin'
+import Speak from './commands/speak'
 
 const bot = new Discord.Client();
 const cmds = [
@@ -14,7 +15,8 @@ const cmds = [
     new Ping('', (msg) => {
         msg.reply('Hello master');
     }),
-    new Bitcoin()
+    new Bitcoin(),
+    new Speak()
 ];
 
 bot.on('ready', () => {
