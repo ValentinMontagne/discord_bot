@@ -3,7 +3,7 @@ import Axios from 'axios'
 
 const COMMAND = '!bitcoin howmuch';
 
-module.exports = class Ping extends Command {
+module.exports = class Bitcoin extends Command {
 
     /*
         Taking username first param => String to display a different pong response
