@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ValMont13/discord_bot#readme",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "discord.js": "^11.3.0"
   },
   "devDependencies": {
